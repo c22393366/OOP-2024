@@ -19,6 +19,16 @@ public class Main
 	{
 		// Put your code here
 		System.out.println("cats are from space");
+
+		System.out.println("Let's kill a cat");
+
+		Cat ginger = new Cat("Ginger");
+
+        // Kill the cat
+        while (ginger.getNumLives() > 0)
+        {
+            ginger.kill();
+        }
 	}
 	
 	public static void main(String[] args)
@@ -30,6 +40,8 @@ public class Main
 		m.doDogStuff();
 
 		m.doCatStuff();
+
+		
 	}
 	
 }
